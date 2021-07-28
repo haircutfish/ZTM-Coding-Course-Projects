@@ -1,0 +1,36 @@
+#Tricky Counter Exercise ZTM
+#counter-loop over itaribale list and print sum of the total of the list
+my_list = {1,2,3,4,5,6,7,8,9,10}
+sum = 0
+for num in my_list:
+    sum = sum+num
+print("Adding all the numbers together\nin my list, you will get", sum)
+
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________>    
