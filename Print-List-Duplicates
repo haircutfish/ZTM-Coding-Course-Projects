@@ -1,0 +1,36 @@
+#Check for duplicates in list:
+#print the duplicates
+from collections import Counter
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n','n']
+count_dup = Counter(some_list)#<--- This is counting the list
+duplicates = [d for d, c in count_dup.items()if c >1] #<--This takes the counter and if there is more then 1 in the list then
+print(duplicates) #<---- the duplicates will print here
+
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________>    
