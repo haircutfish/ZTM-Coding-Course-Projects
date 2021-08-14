@@ -1,0 +1,43 @@
+#Tesla Exercise
+
+
+def checkDriverAge():
+	age = int(input('Welcome to a Tesla experience.\nWhat is your age? ') or '0')
+	if int(age) < 18:
+		print("Sorry, you are too young to drive this car. Powering off")
+	elif int(age) >18:
+		print('Powering on.  Enjoy the ride!');
+	elif int(age) == 18:
+		print('Congratulations on your first year of driving.  Enjoy the ride!')
+
+checkDriverAge()
+
+
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________>    
