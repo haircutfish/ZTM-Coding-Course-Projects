@@ -1,0 +1,54 @@
+# Given the below class:
+class Cat:
+    species = 'mammal'
+
+    def __init__(self, name='None', age=0):
+        self.name = name
+        self.age = age
+
+
+# 1 Instantiate the Cat object with 3 cats
+cat1 = Cat('Buckles', 3)
+cat2 = Cat('Squishy', 8)
+cat3 = Cat('Mr. Bigelsworth', 40)
+
+
+# 2 Create a function that finds the oldest cat
+def cat_age():
+    catage = [cat1.age, cat2.age, cat3.age]
+    age = max(catage)
+    print(f'The oldest cats is {age} years old')
+
+
+# 3 Print out: "The oldest cat is x years old.".
+cat_age()
+# x will be the oldest cat age by using the function in #2
+
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________>    
