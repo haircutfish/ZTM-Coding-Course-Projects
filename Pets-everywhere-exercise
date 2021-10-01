@@ -32,21 +32,16 @@ class Mittens(Cat):
 
 
 #2 Create a list of all of the pets (create 3 cat instances from the above)
-my_cats = []
+
+my_cats = [Mittens('Huckstable', "3"), Sally('Cheshire', "4"), Simon('Jimmy', '2')]
+
 #3 Instantiate the Pet class with all your cats use variable my_pets
-cat1 = Mittens('Huckstable', "3")
-cat2 = Sally('Cheshire', "4")
-cat3 = Simon('Jimmy', '2')
 
-my_cats.append(cat3.name)
-my_cats.append(cat2.name)
-my_cats.append(cat1.name)
-print(my_cats)
+my_pets = Pets(my_cats)
+
 #4 Output all of the cats walking using the my_pets instance
-print(cat1.walk())
-print(cat2.walk())
-print(cat3.walk())
 
+my_pets.walk()
 
 
 
