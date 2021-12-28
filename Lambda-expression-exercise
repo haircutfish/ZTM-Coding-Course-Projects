@@ -1,0 +1,41 @@
+#create one line lambda expression
+#that takes the numbers to prints them
+#to the power of 2 or squared
+
+my_list = [5,4,3]
+print(list(map(lambda item: item**2, my_list)))
+
+#list sorting using the second number going from lowest to highest
+a = [(0,2), (4,3), (9,9), (10, -1) ]
+
+a.sort(key=lambda item: item[1])
+
+print(a)
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________> 
