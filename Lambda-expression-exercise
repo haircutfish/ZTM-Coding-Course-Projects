@@ -1,16 +1,16 @@
-#create one line lambda expression
-#that takes the numbers to prints them
-#to the power of 2 or squared
+#Challenge 1:Create a oneliner using Lambda
+#ExpressionsTo square the numbers in my_list
 
 my_list = [5,4,3]
+
 print(list(map(lambda item: item**2, my_list)))
 
-#list sorting using the second number going from lowest to highest
-a = [(0,2), (4,3), (9,9), (10, -1) ]
+#Challenge 2: List Sorting, sort by the second digit
+#in the Tuple
 
-a.sort(key=lambda item: item[1])
+a = [(0,2), (4,3), (9,9), (10,-1)]
 
-print(a)
+print(sorted(a,key=lambda t: t[1]))
 
 
                 /\                                  /\              
