@@ -1,4 +1,4 @@
-#Give a Fionacci number and return all the numbers leading up to that number
+#Give a Fibonacci number and return all the numbers leading up to that number
 
 #Use a generator
 
@@ -19,7 +19,10 @@ def fib(fn):
 
     return f"Fn{fn} = {b}"
 
-print(fib(19))
+
+
+num = int(input("Which Fibonacci number would you like to see? "))
+print(fib(num))
 
 
 
