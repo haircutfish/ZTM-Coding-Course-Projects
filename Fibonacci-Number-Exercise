@@ -1,0 +1,53 @@
+#Give a Fionacci number and return all the numbers leading up to that number
+
+#Use a generator
+
+#Personal Bonus have it print out Fn(n= sequence number) = Fibonacci number
+
+def fib(fn):
+  a = 0
+  b = 1 
+  if fn <= 1:
+    return f"Fn{fn} = {fn}"
+
+  else:
+    for i in range(2, fn+1):
+     
+      c = a + b
+      a = b
+      b = c
+
+    return f"Fn{fn} = {b}"
+
+print(fib(19))
+
+
+
+
+
+                /\                                  /\              
+               |  \                                /  |                  
+               |    \            / \             /    |          
+               |     \      /\  /   \  / \      /     |           
+               |       \ ^ /  \/     \/   \ ^ /       | 
+               |                                      |      
+               /                                       \                
+              /            \                /           \             
+             /            | \              / |           \        
+            /             |  \            /  |            \           
+           /              |  @\          /@  |             \          
+          /               |    \        /    |              \        
+         /                 \___/        \___/                \       
+        /                                                     \            
+       /               |\______________________/|              \         
+      /      \         |   |   |   |   |   |    |        /\     \        
+     /      / \        |   |   |   |   |   |    |       /  \     \    
+    /      /   \       |   |   |   |   |   |    |      /    \     \      
+   /      /     \       \  |   |   |   |   |   /      /      \     \     
+  /      \       \       \_|___|___|___|___|__/      /       /      \  
+   \/\/\/        /\                                 /\        \/\/\/  
+                /  \                               /  \               
+               |                                       |       
+               |         \____________________/        |      
+                \          |              |          /       
+                <_________/                \_________>    
